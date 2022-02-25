@@ -1,0 +1,66 @@
+﻿@model Nop.Plugin.Payments.RazorpayPayment.Models.ConfigurationModel
+
+@{
+    Layout = "_ConfigurePlugin";
+}
+
+@await Component.InvokeAsync("StoreScopeConfiguration")
+
+
+<form asp-controller="PaymentRazorpay" asp-action="Configure" method="post">
+    <div class="cards-group">
+        <div class="card card-default card-outline card-info" id="pnlOnboarding">
+            <div class="card-header">
+              <h5>Instructions</h5>
+            </div>
+            <div class="card-body">
+                <p>
+                    <b>
+                        If you're using this gateway ensure that your primary store currency is supported by
+                        Razorpay.
+                    </b> <br><br> To use Razorpay, you must create Razorpay account. Follow these steps to configure
+                    your account for Razorpay:<br> <br>1. Log in to your Razorpay account
+                    (click <a href="https://dashboard.razorpay.com/" target="_blank">here</a> to create your account).
+                    <br>2.Select the mode (Test or Live) for which you want to generate the API key.
+                    <br>3.Navigate to Settings → API Keys → Generate Key to generate the key for the selected mode.
+                    <br>4. Select the<b> Key Id</b> enter in Client Id <br>5. Select the
+                    <b> Key Secret</b> enter in Secret Key. <br>6. Click <b>Save</b> button on this page. <br>
+                </p>
+                <hr />
+             </div>
+        </div>
+        <div class="card card-default">
+            <div class="card-body">
+                <div class="form-group row">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ClientId_OverrideForStore" asp-input="ClientId" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        @*<nop-label asp-for="ClientId" />*@
+                        <label class="form-control">ClientId</label>
+                    </div>
+                    <div class="col-md-9">
+                        @*<nop-editor asp-for="clientid" />*@
+                        <input type="text" id="ClientId" name="ClientId" class="form-control text-box single-line" value="@Model.ClientId" autocomplete="off"/>
+                        <span asp-validation-for="ClientId"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="SecretKey_OverrideForStore" asp-input="SecretKey" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        @*<nop-label asp-for="SecretKey" />*@
+                        <label class="form-control">SecretKey</label>
+                    </div>
+                    <div class="col-md-9">
+                        @*<nop-editor asp-for="SecretKey" />*@
+                        <input id="SecretKey" type="text" name="SecretKey" class="form-control text-box single-line" value="@Model.SecretKey" autocomplete="off" />
+                        <span asp-validation-for="SecretKey"></span>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-9 offset-md-3">
+                        <button type="submit" name="save" class="btn btn-primary">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
