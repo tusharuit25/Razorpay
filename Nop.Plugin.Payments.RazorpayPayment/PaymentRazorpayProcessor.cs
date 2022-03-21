@@ -164,7 +164,7 @@ namespace Nop.Plugin.Payments.RazorpayPayment
             {
                 ["Plugins.Payments.RazorpayPayment.Fields.ClientId"] = "ClientId",
                 ["Plugins.Payments.RazorpayPayment.Fields.SecretKey"] = "SecretKey",
-                ["Plugins.Payments.RazorpayPayment.PaymentMethodDescription"] = "You will be redirected to Razorpay site to complete the payment",
+                ["Plugins.Payments.RazorpayPayment.PaymentMethodDescription"] = "Pay by Razorpay payment",
             });
             await base.InstallAsync();
         }

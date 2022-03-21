@@ -40,7 +40,7 @@ namespace Nop.Plugin.Payments.RazorpayPayment.Helper
                 Dictionary<string, object> options = new Dictionary<string, object>();
                 options.Add("amount", price * 100);  // Amount will in paise
                 options.Add("receipt", transactionId);
-                options.Add("currency", "INR");
+                options.Add("currency", "USD");
                 options.Add("payment_capture", "0"); // 1 - automatic  , 0 - manual
                                                      //options.Add("notes", "-- You can put any notes here --");
 
@@ -54,7 +54,7 @@ namespace Nop.Plugin.Payments.RazorpayPayment.Helper
                     orderId = orderResponse.Attributes["id"],
                     razorpayKey = _clientId,
                     amount = price * 100,
-                    currency = "INR",
+                    currency = "USD",
                     name = email,
                     email = email,
                     contactNumber = "",

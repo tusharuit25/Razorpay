@@ -58,4 +58,6 @@
     <PackageReference Include="Razorpay" Version="3.0.0" />
   </ItemGroup>
 
+  <ProjectExtensions><VisualStudio><UserProperties plugin_1json__JsonSchema="https://download.stackhawk.com/hawk/jsonconfig/hawkconfig.json" /></VisualStudio></ProjectExtensions>
+
 </Project>
