@@ -4345,7 +4345,7 @@
           "lib/netstandard2.0/WebMarkupMin.NUglify.dll": {}
         }
       },
-      "Nop.Core/4.4.0": {
+      "Nop.Core/4.5.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -4372,14 +4372,14 @@
           "bin/placeholder/Nop.Core.dll": {}
         }
       },
-      "Nop.Data/4.4.0": {
+      "Nop.Data/4.5.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "FluentMigrator": "3.2.15",
           "FluentMigrator.Runner": "3.2.15",
           "MySql.Data": "8.0.23",
-          "Nop.Core": "4.4.0",
+          "Nop.Core": "4.5.0",
           "Npgsql": "5.0.3",
           "System.Data.SqlClient": "4.8.2",
           "System.Net.NameResolution": "4.3.0",
@@ -4392,7 +4392,7 @@
           "bin/placeholder/Nop.Data.dll": {}
         }
       },
-      "Nop.Services/4.4.0": {
+      "Nop.Services/4.5.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -4400,8 +4400,8 @@
           "EPPlus": "4.5.3.3",
           "MailKit": "2.10.1",
           "MaxMind.GeoIP2": "4.0.1",
-          "Nop.Core": "4.4.0",
-          "Nop.Data": "4.4.0",
+          "Nop.Core": "4.5.0",
+          "Nop.Data": "4.5.0",
           "SkiaSharp": "2.80.2",
           "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.80.2",
           "System.Linq.Dynamic.Core": "1.2.8",
@@ -4415,15 +4415,15 @@
           "bin/placeholder/Nop.Services.dll": {}
         }
       },
-      "Nop.Web.Framework/4.4.0": {
+      "Nop.Web.Framework/4.5.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "BundlerMinifier.Core": "3.2.449",
           "FluentValidation.AspNetCore": "9.5.1",
-          "Nop.Core": "4.4.0",
-          "Nop.Data": "4.4.0",
-          "Nop.Services": "4.4.0",
+          "Nop.Core": "4.5.0",
+          "Nop.Data": "4.5.0",
+          "Nop.Services": "4.5.0",
           "WebMarkupMin.AspNetCore5": "2.9.2",
           "WebMarkupMin.NUglify": "2.9.2"
         },
@@ -13381,22 +13381,22 @@
         "webmarkupmin.nuglify.nuspec"
       ]
     },
-    "Nop.Core/4.4.0": {
+    "Nop.Core/4.5.0": {
       "type": "project",
       "path": "../../Libraries/Nop.Core/Nop.Core.csproj",
       "msbuildProject": "../../Libraries/Nop.Core/Nop.Core.csproj"
     },
-    "Nop.Data/4.4.0": {
+    "Nop.Data/4.5.0": {
       "type": "project",
       "path": "../../Libraries/Nop.Data/Nop.Data.csproj",
       "msbuildProject": "../../Libraries/Nop.Data/Nop.Data.csproj"
     },
-    "Nop.Services/4.4.0": {
+    "Nop.Services/4.5.0": {
       "type": "project",
       "path": "../../Libraries/Nop.Services/Nop.Services.csproj",
       "msbuildProject": "../../Libraries/Nop.Services/Nop.Services.csproj"
     },
-    "Nop.Web.Framework/4.4.0": {
+    "Nop.Web.Framework/4.5.0": {
       "type": "project",
       "path": "../../Presentation/Nop.Web.Framework/Nop.Web.Framework.csproj",
       "msbuildProject": "../../Presentation/Nop.Web.Framework/Nop.Web.Framework.csproj"
@@ -13404,10 +13404,10 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Nop.Core >= 4.4.0",
-      "Nop.Data >= 4.4.0",
-      "Nop.Services >= 4.4.0",
-      "Nop.Web.Framework >= 4.4.0",
+      "Nop.Core >= 4.5.0",
+      "Nop.Data >= 4.5.0",
+      "Nop.Services >= 4.5.0",
+      "Nop.Web.Framework >= 4.5.0",
       "Razorpay >= 3.0.0"
     ]
   },

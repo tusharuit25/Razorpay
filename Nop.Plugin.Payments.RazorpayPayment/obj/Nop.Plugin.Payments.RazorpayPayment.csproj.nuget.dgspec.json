@@ -5,7 +5,7 @@
   },
   "projects": {
     "E:\\Krishna\\nopCommerce\\Libraries\\Nop.Core\\Nop.Core.csproj": {
-      "version": "4.4.0",
+      "version": "4.5.0",
       "restore": {
         "projectUniqueName": "E:\\Krishna\\nopCommerce\\Libraries\\Nop.Core\\Nop.Core.csproj",
         "projectName": "Nop.Core",
@@ -121,7 +121,7 @@
       }
     },
     "E:\\Krishna\\nopCommerce\\Libraries\\Nop.Data\\Nop.Data.csproj": {
-      "version": "4.4.0",
+      "version": "4.5.0",
       "restore": {
         "projectUniqueName": "E:\\Krishna\\nopCommerce\\Libraries\\Nop.Data\\Nop.Data.csproj",
         "projectName": "Nop.Data",
@@ -209,7 +209,7 @@
       }
     },
     "E:\\Krishna\\nopCommerce\\Libraries\\Nop.Services\\Nop.Services.csproj": {
-      "version": "4.4.0",
+      "version": "4.5.0",
       "restore": {
         "projectUniqueName": "E:\\Krishna\\nopCommerce\\Libraries\\Nop.Services\\Nop.Services.csproj",
         "projectName": "Nop.Services",
@@ -381,7 +381,7 @@
       }
     },
     "E:\\Krishna\\nopCommerce\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
-      "version": "4.4.0",
+      "version": "4.5.0",
       "restore": {
         "projectUniqueName": "E:\\Krishna\\nopCommerce\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
         "projectName": "Nop.Web.Framework",
