@@ -1,0 +1,211 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Razorpay/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/net45/Razorpay.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Razorpay.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Razorpay/3.0.0": {
+      "sha512": "V7hSh0L635aGQ3nX9mtjREHyOlTeXEptlDXIo7LABulFkfD9DZQyI504mxh/ISIOkVrnU5TLMMomqenH5okzEA==",
+      "type": "package",
+      "path": "razorpay/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Razorpay.dll",
+        "lib/net45/Razorpay.dll",
+        "razorpay.3.0.0.nupkg.sha512",
+        "razorpay.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "D:\\Libraries\\Nop.Core\\Nop.Core.csproj",
+      "D:\\Libraries\\Nop.Data\\Nop.Data.csproj",
+      "D:\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "D:\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+      "Razorpay >= 3.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\adwebsoft\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Isha\\Nop.Plugin.Payments.RazorpayPayment\\Nop.Plugin.Payments.RazorpayPayment.csproj",
+      "projectName": "Nop.Plugin.Payments.RazorpayPayment",
+      "projectPath": "D:\\Isha\\Nop.Plugin.Payments.RazorpayPayment\\Nop.Plugin.Payments.RazorpayPayment.csproj",
+      "packagesPath": "C:\\Users\\adwebsoft\\.nuget\\packages\\",
+      "outputPath": "D:\\Isha\\Nop.Plugin.Payments.RazorpayPayment\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\adwebsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.telerik.com/nuget": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+              "projectPath": "D:\\Libraries\\Nop.Core\\Nop.Core.csproj"
+            },
+            "D:\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+              "projectPath": "D:\\Libraries\\Nop.Data\\Nop.Data.csproj"
+            },
+            "D:\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+              "projectPath": "D:\\Libraries\\Nop.Services\\Nop.Services.csproj"
+            },
+            "D:\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+              "projectPath": "D:\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Razorpay": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Libraries\\Nop.Core\\Nop.Core.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Libraries\\Nop.Core\\Nop.Core.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Libraries\\Nop.Data\\Nop.Data.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Libraries\\Nop.Data\\Nop.Data.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Libraries\\Nop.Services\\Nop.Services.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Razorpay 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Razorpay",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

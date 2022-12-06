@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "dgSpecHash": "rQ5AnOwfd6xhQpy9ys5x0aZLLRd0XzDGy6h3pogxtbe27hfiYwtGS7W3fKMWfTxvt5NXOyi9w7L9CYvezy5Cvw==",
+  "success": false,
+  "projectFilePath": "D:\\Isha\\Nop.Plugin.Payments.RazorpayPayment\\Nop.Plugin.Payments.RazorpayPayment.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\adwebsoft\\.nuget\\packages\\razorpay\\3.0.0\\razorpay.3.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Libraries\\Nop.Core\\Nop.Core.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Libraries\\Nop.Core\\Nop.Core.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Libraries\\Nop.Data\\Nop.Data.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Libraries\\Nop.Data\\Nop.Data.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'D:\\Libraries\\Nop.Services\\Nop.Services.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "D:\\Libraries\\Nop.Services\\Nop.Services.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Razorpay 3.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Razorpay",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

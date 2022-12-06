@@ -1,0 +1,85 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Isha\\Nop.Plugin.Payments.RazorpayPayment\\Nop.Plugin.Payments.RazorpayPayment.csproj": {}
+  },
+  "projects": {
+    "D:\\Isha\\Nop.Plugin.Payments.RazorpayPayment\\Nop.Plugin.Payments.RazorpayPayment.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Isha\\Nop.Plugin.Payments.RazorpayPayment\\Nop.Plugin.Payments.RazorpayPayment.csproj",
+        "projectName": "Nop.Plugin.Payments.RazorpayPayment",
+        "projectPath": "D:\\Isha\\Nop.Plugin.Payments.RazorpayPayment\\Nop.Plugin.Payments.RazorpayPayment.csproj",
+        "packagesPath": "C:\\Users\\adwebsoft\\.nuget\\packages\\",
+        "outputPath": "D:\\Isha\\Nop.Plugin.Payments.RazorpayPayment\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\adwebsoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Libraries\\Nop.Core\\Nop.Core.csproj": {
+                "projectPath": "D:\\Libraries\\Nop.Core\\Nop.Core.csproj"
+              },
+              "D:\\Libraries\\Nop.Data\\Nop.Data.csproj": {
+                "projectPath": "D:\\Libraries\\Nop.Data\\Nop.Data.csproj"
+              },
+              "D:\\Libraries\\Nop.Services\\Nop.Services.csproj": {
+                "projectPath": "D:\\Libraries\\Nop.Services\\Nop.Services.csproj"
+              },
+              "D:\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj": {
+                "projectPath": "D:\\Presentation\\Nop.Web.Framework\\Nop.Web.Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Razorpay": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
